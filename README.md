@@ -8,7 +8,7 @@ they implement synchronious implementation of image operations (load, save, resi
 Since this operations can take significant time, in order to avoid blocking of main (gtk) thread, 
 this operations should be run in different thread. This is done by ImageAsync class.
 
-vscode, Magick++, gtkmm-4.0, cmake, C++20
+vscode, Magick++, gtkmm-4.0, cmake, C++20 (for template constraints only, otherwise C++17)
 
 
 This application has some bugs that I'm aware of (for example, it crashes if you try to load non-image file).
